@@ -1,0 +1,61 @@
+body {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.header {
+    background-color: rgb(245,245, 245);
+    height: 5vh;
+    color: rgb(0,105, 148);
+    padding-top: .5vh;
+    padding-left: 10vh;
+    padding-bottom: 1vh;
+    border-top : 1em solid rgb(0,105, 148);
+    border-left : 1em solid rgb(0,105, 148);
+    border-right: 1em solid rgb(0,105, 148);
+}
+
+.menu-bar {
+    padding-left: 5vh;
+    background-color: lightgray;
+    height: 5vh;
+    border-bottom : 1em solid rgb(0,105, 148);
+    border-left : 1em solid rgb(0,105, 148);
+    border-right: 1em solid rgb(0,105, 148);
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    width : 9em;
+    background-color: lightgray;
+    border: .5em solid lightgray;
+    font-size: 120%;
+}
+
+.menu-item:focus {
+    font-weight: bold;
+    border: .5em solid lightgray;
+    background:  rgb(0,105, 148);
+    color: rgb(245,245, 245);
+    outline: none;
+    border: none;
+}
+
+.menu-item::-moz-focus-inner {
+    outline: none;
+    border: none;
+}
+
+.content {
+    height: 85vh;
+    padding-left: 10vh;
+    background-color: white;
+}
+
+.CV {
+    height: 80vh;
+    width: 100vh;
+}
