@@ -1,0 +1,10 @@
+Footer:
+
+association memberships
+social media
+address and contact info
+short blurb (contains keywords)
+Also links in footer (presented differently)
+Second dropdown menu (or other solution)
+
+add acknowledgments for images for wikimedia
