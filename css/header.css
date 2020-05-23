@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(0,105, 148);
+    color: rgb(245,245, 245);
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+} 
+
+.header > h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 220%;
+    margin-top: auto;
+}
+
+
+.header > img {
+    height: 8rem;
+    padding-left: 24%;
+}

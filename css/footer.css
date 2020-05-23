@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgb(0,105, 148);
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer > img {
+    height: 50%;
+    padding-left: 10%;
+}
+
+.footer-wrapper {
+    background-color: rgb(0,105, 148);
+    min-height: 10rem;
+    max-height: 16rem;
+}

@@ -1,0 +1,29 @@
+.menu-bar {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 6rem;
+}
+
+.menu-item {
+    background-color: lightgray;
+    border: .5em solid lightgray;
+    font-size: 160%;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.menu-item:focus, .menu-item:active  {
+    font-weight: bolder;
+    border: .5em solid lightgray;
+    background:  gray;
+    color: rgb(245,245, 245);
+    outline: none;
+    border: none;
+}
+
+.menu-item::-moz-focus-inner {
+    outline: none;
+    border: none;
+}

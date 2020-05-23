@@ -4,43 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Edward Nolan</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="javascript.js"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <h1>Edward Nolan</h1>
-        </div>
-        <div class ="menu-bar">
-            <button class="menu-item" onclick="loadHome()">Home</button>
-            <button class="menu-item" onclick="loadCV()">C.V.</button>
-            <button class="menu-item">Teaching</button>
-            <button class="menu-item">Publications</button>
-            <button class="menu-item">Other Projects</button>
-        </div>
-        <div class="horizontal-decoration"></div>
-        <div class="content-row">
-            <div class="vertical-decoration"></div>
-            <div class="content" id="content">
-                <div class="main" id="main">
-                    <p>My research focuses on how Greek and Roman authors understood language differences 
-                        between various groups in the ancient Mediterranean and how this understanding 
-                        relates to their ideas about ethnicity and identity. I work in particular upon 
-                        Herodotus, the subject of my dissertation, using methodologies from philology, literary analysis, 
-                        and (socio)linguistics. My dissertation examines Herodotus’ representation and understanding of 
-                        languages, including but not limited to Greek itself.
-                    </p>
-                </div>
-                <div class="sidebar" id="sidebar">
-                    <img src="/images/me.jpg">
-                </div>   
+    <div class=site-wrapper>
+        <div class="top-wrapper">
+            <div class=header>
+                <h1>Edward Nolan</h1>
+                <img src="images/ionic-col-cap.png">
             </div>
-            <div class="vertical-decoration"></div>
         </div>
+        <div class="menu-wrapper">
+            <div class ="menu-bar">
+                <button class="menu-item" onclick="loadHome()">Home</button>
+                <button class="menu-item" onclick="loadCV()">C.V.</button>
+                <button class="menu-item">Teaching</button>
+                <button class="menu-item">Publications</button>
+                <button class="menu-item">Other Projects</button>
+            </div>
+        </div>
+
         <div class="horizontal-decoration"></div>
-        <div class="footer"></div>
+
+        <div class="center-wrapper">
+
+            <div class="content-row">
+
+                <div class="content" id="content">
+                    <div class="main" id="main">
+                        <p>My research focuses on how Greek and Roman authors understood language differences 
+                            between various groups in the ancient Mediterranean and how this understanding 
+                            relates to their ideas about ethnicity and identity. I work in particular upon 
+                            Herodotus, the subject of my dissertation, using methodologies from philology, literary analysis, 
+                            and (socio)linguistics. My dissertation examines Herodotus’ representation and understanding of 
+                            languages, including but not limited to Greek itself.
+                        </p>
+                    </div>
+                    <div class="sidebar" id="sidebar">
+                        <img src="/images/me.jpg">
+                    </div>   
+                </div>
+
+            </div>
+        </div>
+
+        <div class="horizontal-decoration"></div>
+
+        <div class="footer-wrapper">
+            <div class="footer">
+                <img src="images/ionic-col-more-cap.png">
+            </div>
+        </div>
     </div>
 </body>
 

@@ -1,0 +1,36 @@
+.content-row {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    min-height: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.main {
+    padding: 6rem;
+    width: 50%; 
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.main > p {
+    line-height: 1.5;
+    font-size: 150%;
+}
+
+.sidebar {
+    flex-grow: 1;
+    display: flex;
+}
+
+.sidebar > img {
+    margin: auto;
+    width: 60%
+}

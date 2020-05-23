@@ -8,9 +8,9 @@ async function load(page) {
 }
 
 function loadCV() {
-    load("pages/cv.html");
+    load("html/cv.html");
 }
 
 function loadHome() {
-    load("pages/home.html");
+    load("html/home.html");
 }
