@@ -1,3 +1,11 @@
 .cv {
-    width: 70%
+    width: 100%
+}
+
+.cv > h2 {
+    text-align: center;
+}
+
+.cv > h2, h3, h4, p {
+    padding-left: 1rem;
 }

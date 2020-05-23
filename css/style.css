@@ -5,19 +5,22 @@
 @import "cv.css";
 
 body {
-    margin: 0px;
-}
-
-.site-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0;
     height: 100vh;
+    font: 1.2em "Fira Sans", sans-serif;
+    margin: 0;
 }
 
 .header, .menu-bar, .content-row, .footer {
     width: 100vh;
     align-self: center;
+}
+
+@media (max-width: 100em) {
+    .header, .menu-bar, .content-row, .footer {
+        width: 100%
+    }
 }
 
 .top-wrapper {

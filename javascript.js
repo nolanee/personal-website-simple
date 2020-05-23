@@ -3,7 +3,7 @@ async function fetchHtmlAsText(url) {
 }
 
 async function load(page) {
-    const contentDiv = document.getElementById("main");
+    const contentDiv = document.getElementById("content");
     contentDiv.innerHTML = await fetchHtmlAsText(page);
 }
 
