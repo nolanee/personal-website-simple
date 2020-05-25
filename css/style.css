@@ -7,9 +7,10 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     font: 1.2em "Fira Sans", sans-serif;
     margin: 0;
+    background-color: black;
 }
 
 .header, .menu-bar, .content-row, .footer {
@@ -17,7 +18,11 @@ body {
     align-self: center;
 }
 
-@media (max-width: 100em) {
+.content-row {
+    width: 80vh;
+}
+
+@media (max-width: 70em) {
     .header, .menu-bar, .content-row, .footer {
         width: 100%
     }
@@ -27,12 +32,6 @@ body {
     display: flex;
     background-color: rgb(0,105, 148);
     flex-direction: column;
-}
-
-.menu-wrapper {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgrey;
 }
 
 .center-wrapper {
@@ -46,7 +45,7 @@ body {
 }
 
 .horizontal-decoration {
-    min-height: 5rem;
+    min-height: 2rem;
     background-size: auto 100%;
     background-image: url(../images/egg-dart.png);
     background-repeat: repeat-x;

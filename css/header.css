@@ -22,3 +22,10 @@
 .spacer {
     flex-grow: 1;
 }
+
+.menu-button {
+    color: white;
+    border: 0;
+    font-size: 115%;
+    background-color: rgb(0,105, 148);
+}

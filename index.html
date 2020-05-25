@@ -10,21 +10,24 @@
 
 <body>
     <div class="top-wrapper">
-        <div class=header>
+
+        <div class="header">
             <h1>Edward Nolan</h1>
             <div class="spacer"></div>
+            <button class="menu-button" onclick="loadMenu()" type="button">Menu</button>
             <img src="images/ionic-col-more-cap.png">
         </div>
-    </div>
 
-    <div class="menu-wrapper">
-        <div class ="menu-bar">
-            <button class="menu-item" onclick="loadHome()">Home</button>
-            <button class="menu-item" onclick="loadCV()">C.V.</button>
-            <button class="menu-item">Teaching</button>
-            <button class="menu-item">Publications</button>
-            <button class="menu-item">Other Projects</button>
+        <div class="menu-wrapper" id="menu-wrapper">
+            <div class ="menu-bar">
+                <button class="menu-item" onclick="loadHome()" type="button">Home</button>
+                <button class="menu-item" onclick="loadCV()" type="button">C.V.</button>
+                <button class="menu-item" type="button">Teaching</button>
+                <button class="menu-item" type="button">Publications</button>
+                <button class="menu-item" type="button">Other Projects</button>
+            </div>
         </div>
+
     </div>
 
     <div class="horizontal-decoration"></div>
@@ -55,6 +58,7 @@
 
     <div class="footer-wrapper">
         <div class="footer">
+            <a class="footer-link" href="https://www.github.com/nolanee"><img src="images/Octocat.png"></a>
         </div>
     </div>
 </body>
