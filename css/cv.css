@@ -7,5 +7,12 @@
 }
 
 .cv > h2, .cv > h3, .cv > h4, .cv > p {
+    padding-left: 3rem;
+    padding-right: 1rem;
+    text-indent: -2rem;
+}
+
+.address > p {
+    margin: 0;
     padding-left: 1rem;
 }
