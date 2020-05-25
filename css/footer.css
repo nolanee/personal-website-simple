@@ -3,11 +3,26 @@
     min-height: 8vh;
     display: flex;
     flex-direction: row;
+    color: white
+}
+
+.contact {
+    flex-grow: 1;
+}
+
+.contact > h2, .contact > p {
+    padding-left: 2rem;
 }
 
 .footer-link > img {
-    height: 50%;
-    padding-left: 10%;
+    padding: .5rem;
+    margin: auto;
+    height: 4rem;
+}
+
+.links {
+    align-self: flex-end;
+    padding-right: 2rem;
 }
 
 .footer-wrapper {
