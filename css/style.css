@@ -48,6 +48,6 @@ body {
 .horizontal-decoration {
     min-height: 5rem;
     background-size: auto 100%;
-    background-image: url(images/egg-dart.png);
+    background-image: url(../images/egg-dart.png);
     background-repeat: repeat-x;
 }
