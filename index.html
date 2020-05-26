@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Edward Nolan</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/favicon_io/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon_io/favicon-32x32.png" sizes="32x32">
     <script src="javascript.js"></script>
 </head>
 
@@ -14,7 +16,7 @@
         <div class="header">
             <h1>Edward Nolan</h1>
             <div class="spacer"></div>
-            <button class="menu-button" onclick="loadMenu()" type="button">Menu</button>
+            <button class="menu-button" id="menu-button" onclick="loadMenu()" type="button">► Menu</button>
             <img src="images/ionic-col-more-cap.png">
         </div>
 
@@ -22,15 +24,15 @@
             <div class ="menu-bar">
                 <button class="menu-item" onclick="loadHome()" type="button">Home</button>
                 <button class="menu-item" onclick="loadCV()" type="button">C.V.</button>
-                <button class="menu-item" type="button">Teaching</button>
-                <button class="menu-item" type="button">Publications</button>
-                <button class="menu-item" type="button">Other Projects</button>
+                <button class="menu-item" onclick="loadTeaching()" type="button">Teaching</button>
+                <button class="menu-item" onclick="loadPublications()" type="button">Publications</button>
+                <button class="menu-item" onclick="loadOtherProjects()"type="button">Other Projects</button>
             </div>
         </div>
 
-    </div>
+        <div class="horizontal-decoration"></div>
 
-    <div class="horizontal-decoration"></div>
+    </div>
 
     <div class="center-wrapper">
 

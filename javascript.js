@@ -14,3 +14,27 @@ function loadCV() {
 function loadHome() {
     load("html/home.html", "content");
 }
+
+function loadTeaching() {
+    load("html/teaching.html", "content");
+}
+
+function loadPublications() {
+    load("html/publications.html", "content");
+}
+
+function loadOtherProjects() {
+    load("html/other-projects.html", "content")
+}
+
+function loadMenu() {
+    const menu = document.getElementById("menu-wrapper");
+    const menuButton = document.getElementById("menu-button");
+    if (menu.style.display !== "flex") {
+        menu.style.display = "flex";
+        menuButton.textContent = "▼ Menu"
+    } else {
+        menu.style.display = "none";
+        menuButton.textContent = "► Menu"
+    }
+}

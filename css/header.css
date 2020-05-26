@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(0,105, 148);
+    background-color: rgb(0, 105, 148);
     color: rgb(245,245, 245);
     height: 6rem;
     display: flex;
@@ -28,4 +28,12 @@
     border: 0;
     font-size: 115%;
     background-color: rgb(0,105, 148);
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-button:hover {
+    color: white;
+    font-weight: bold;
 }
