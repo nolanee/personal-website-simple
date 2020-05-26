@@ -41,5 +41,9 @@
     .menu-bar {
         flex-direction: column;
         height: 100%;
+        font-size: 200%
+    }
+    .menu-button {
+        font-size: 200%
     }
 }

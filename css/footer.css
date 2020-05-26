@@ -30,3 +30,15 @@
     min-height: 10rem;
     max-height: 16rem;
 }
+
+@media (max-width: 70em) {
+    .footer {
+        font-size: 150%;
+    }
+    .links {
+        height: 8rem;
+    }
+    .footer-link > img {
+        height: 6rem;
+    }
+}

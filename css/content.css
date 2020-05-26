@@ -39,5 +39,14 @@
 
 .sidebar > img {
     margin: auto;
-    max-width: 100%
+    max-width: 100%;
+}
+
+@media (max-width: 70em) {
+    .sidebar > img {
+        width: 50%;
+    }
+    .main > p {
+        font-size: 200%;
+    }
 }
