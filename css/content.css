@@ -13,6 +13,12 @@
     height: 100%;
 }
 
+@media (max-width: 70em) {
+    .content-row, .content {
+        flex-direction: column;
+    }
+}
+
 .main {
     padding: 2rem;
     display: flex;
