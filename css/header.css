@@ -6,13 +6,6 @@
     flex-direction: row;
 }
 
-@media (max-width: 70em) {
-    .header {
-        height: 8rem;
-        font-size: 120%;
-    }
-}
-
 .header > h1 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -43,4 +36,11 @@
 .menu-button:hover {
     color: white;
     font-weight: bold;
+}
+
+@media (max-width: 70em) {
+    .header {
+        height: 8rem;
+        font-size: 120%;
+    }
 }
