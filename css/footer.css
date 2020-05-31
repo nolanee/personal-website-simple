@@ -34,6 +34,7 @@
 @media (max-width: 70em) {
     .footer {
         font-size: 120%;
+        flex-direction: column;
     }
     .links {
         height: 4rem;
