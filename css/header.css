@@ -9,6 +9,7 @@
 @media (max-width: 70em) {
     .header {
         height: 8rem;
+        font-size: 120%;
     }
 }
 
