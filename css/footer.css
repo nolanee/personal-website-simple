@@ -31,14 +31,14 @@
     max-height: 16rem;
 }
 
-@media screen and (max-width: 70em) {
+@media (max-width: 70em) {
     .footer {
-        font-size: 150%;
+        font-size: 120%;
     }
     .links {
-        height: 8rem;
+        height: 4rem;
     }
     .footer-link > img {
-        height: 6rem;
+        height: 3rem;
     }
 }

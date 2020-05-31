@@ -42,11 +42,11 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 70em) {
+@media (max-width: 70em) {
     .sidebar > img {
         width: 50%;
     }
     .main > p {
-        font-size: 200%;
+        font-size: 120%;
     }
 }
