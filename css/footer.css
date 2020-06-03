@@ -31,7 +31,8 @@
     max-height: 16rem;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 
+) {
     .footer {
         font-size: 120%;
         flex-direction: column;

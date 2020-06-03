@@ -1,3 +1,5 @@
+@import "constants.css";
+
 .content-row {
     background-color: white;
     display: flex;
@@ -13,7 +15,7 @@
     height: 100%;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 700px) {
     .content-row, .content {
         flex-direction: column;
     }
@@ -42,7 +44,7 @@
     max-width: 100%;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 700px) {
     .sidebar > img {
         width: 50%;
     }
