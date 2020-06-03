@@ -13,18 +13,21 @@
     height: 100%;
 }
 
-@media (max-width: 70em) and (min-resolution: 100dpi)  {
-    .content-row, .content {
-        flex-direction: column;
-    }
-}
-
 .main {
     padding: 2rem;
     display: flex;
     margin: auto;
     flex-direction: column;
     max-width: 50%;
+}
+
+@media (max-width: 70em) and (min-resolution: 100dpi)  {
+    .content-row, .content {
+        flex-direction: column;
+    }
+    .main {
+        max-width: 90%;
+    }
 }
 
 .main > p {
