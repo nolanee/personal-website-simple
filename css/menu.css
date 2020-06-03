@@ -41,7 +41,7 @@
     text-align: right;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 70em) and (min-resolution: 100dpi) {
     .menu-bar {
         flex-direction: column;
         height: 100%;

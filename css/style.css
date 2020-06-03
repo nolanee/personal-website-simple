@@ -30,7 +30,7 @@ body {
     width: 80vh;
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 70em) and (min-resolution: 100dpi) {
     .header, .menu-bar, .content-row, .footer {
         width: 100%
     }

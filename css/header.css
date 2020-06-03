@@ -39,7 +39,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 70em) and (min-resolution: 100dpi) {
     .header {
         height: 6rem;
     }
