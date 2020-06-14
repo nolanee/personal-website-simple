@@ -33,7 +33,6 @@
 
 @media (max-width: 70em) and (min-resolution: 100dpi) {
     .footer {
-        font-size: 120%;
         flex-direction: column;
     }
     .links {

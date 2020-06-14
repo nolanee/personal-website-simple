@@ -26,10 +26,6 @@ body {
     align-self: center;
 }
 
-.content-row {
-    width: 80vh;
-}
-
 @media (max-width: 70em) and (min-resolution: 100dpi) {
     .header, .menu-bar, .content-row, .footer {
         width: 100%

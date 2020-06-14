@@ -8,9 +8,8 @@
 
 .menu-item {
     background-color: lightgray;
-    border: .5em solid lightgray;
-    font-size: 115%;
     flex-grow: 1;
+    border: none;
 }
 
 .menu-item:hover {
@@ -18,12 +17,9 @@
 }
 
 .menu-item:focus, .menu-item:active  {
-    font-weight: bolder;
     border: .5em solid lightgray;
     background:  gray;
     color: rgb(245,245, 245);
-    outline: none;
-    border: none;
 }
 
 .menu-item::-moz-focus-inner {
@@ -45,10 +41,8 @@
     .menu-bar {
         flex-direction: column;
         height: 100%;
-        font-size: 120%
     }
     .menu-button {
-        font-size: 120%;
         width: 120%;
     }
 }
